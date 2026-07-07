@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data & logs (raw/processed data should not bloat git history by default)
+data/index/*
+!data/index/.gitkeep
+logs/*
+!logs/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Env
+.env
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+
+# mypy/ruff/pytest caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
